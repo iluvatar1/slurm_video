@@ -7,8 +7,8 @@
 #SBATCH --cpus-per-task=1            # Number of CPU cores per task
 #SBATCH --mem=1G                     # Memory required per node (1 GB in this case)
 #SBATCH --time=00:05:00              # Time limit (HH:MM:SS)
-#SBATCH --output=%j_hostname.out     # Standard output file (%j will be replaced by job ID)
-#SBATCH --error=%j_hostname.err      # Standard error file
+#SBATCH --output=%j_%x.out           # Standard output file (%j will be replaced by job ID)
+#SBATCH --error=%j_%x.err            # Standard error file
 #SBATCH --mail-type=BEGIN,END,FAIL   # Email notification for job events
 #SBATCH --mail-user=your@email.com   # Email address for notifications
 

@@ -4,7 +4,7 @@
 #include <chrono>
 
 int main() {
-    const size_t N = 100000000;  // Vector size
+    const size_t N = 1000000000;  // Vector size
     std::vector<double> numbers(N);
 
     // Initialize vector
