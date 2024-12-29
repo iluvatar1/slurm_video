@@ -27,7 +27,7 @@ int main(int argc, char* argv[]) {
     auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start);
 
     // Print results in CSV format for easy processing
-    std::cout << omp_get_max_threads() << "," << duration.count() << "," << sum << std::endl;
+    std::clog << omp_get_max_threads() << "," << duration.count() << "," << sum << std::endl;
 
     return 0;
 }

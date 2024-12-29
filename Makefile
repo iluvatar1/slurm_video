@@ -1,4 +1,4 @@
 
 
 clean:
-	rm -rf *.x 201*
+	rm -rf *.x 201* *.err *.out *~
