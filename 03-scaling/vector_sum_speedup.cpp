@@ -5,7 +5,7 @@
 #include <iomanip>
 
 int main(int argc, char* argv[]) {
-    const size_t N = 100000000;  // Vector size
+    const size_t N = 2000000000;  // Vector size
     std::vector<double> numbers(N);
 
     // Initialize vector
