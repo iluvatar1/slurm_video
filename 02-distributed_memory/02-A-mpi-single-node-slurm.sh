@@ -26,7 +26,7 @@ echo "Number of MPI processes: $SLURM_NTASKS"
 
 # Run the MPI program
 srun --mpi=pmix_v4 hostname
-srun --mpi=pmix_v4 ./vector_sum_mpi.x
+srun --mpi=pmix_v4 ./vector_sum_mpi.x #
 
 # Print job end time
 echo "Job finished at: $(date)"

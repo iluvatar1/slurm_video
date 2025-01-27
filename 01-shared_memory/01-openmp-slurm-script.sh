@@ -4,7 +4,7 @@
 #SBATCH --partition=cpu.cecc        # Partition (queue) name
 #SBATCH --nodes=1                   # Number of nodes
 #SBATCH --ntasks=1                  # Number of tasks (processes)
-#SBATCH --cpus-per-task=8           # Number of CPU cores per task (this will be number of OpenMP threads)
+#SBATCH --cpus-per-task=2           # Number of CPU cores per task (this will be number of OpenMP threads)
 #SBATCH --mem=10G                    # Memory required per node
 #SBATCH --time=00:10:00             # Time limit (HH:MM:SS)
 #SBATCH --output=%j_%x.out  # Standard output file
